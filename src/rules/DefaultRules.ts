@@ -33,27 +33,3 @@ export const defaultRules = (): IRules => {
     }
   }
 }
-
-/*
-
-export class DefaultRules implements IRules {
-  onManySibling(): AntStatus {
-    return AntStatus.die;
-  }
-
-  onOneSibling(): AntStatus {
-    return AntStatus.die;
-  }
-
-  onThreeSibling(): AntStatus {
-    return AntStatus.split;
-  }
-
-  onTwoSibling(): AntStatus {
-    return AntStatus.split;
-  }
-
-  onNoSibling(): AntStatus {
-    return AntStatus.die;
-  }
-}*/
